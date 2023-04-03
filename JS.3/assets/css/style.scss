@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    text-align: center;
+}
+
+.loancal {
+    width: 345px;
+    height: 535px;
+    background-color:white;
+    color: white;
+    padding: 10px;
+    margin: 80px auto;
+    position: relative;
+    h1{
+        font-size:30px;
+        margin-bottom: 10px;
+        color: rgb(39, 9, 68);
+      }
+
+      .input{
+        margin: 0px 40px;
+        input{
+          width: 100%;
+          padding: 1rem;
+          border-radius: 10px;
+          font-size: 20px;
+          border: none;
+          outline-style: none;
+      }
+
+      .range{
+        position: absolute;
+        top: 85%;
+        width: 100%;
+        input{
+            width: 100%;
+            cursor: pointer;
+        }
+    }
+          p{ 
+            color: black;
+            font-size: 20px;
+    
+           
+        }
+      }
+
+      button{
+        font-weight: 600;
+        margin-top: 15px;
+        padding: 7px 10px;
+        border-radius: 14px;
+        border: none;
+        background-color: rgb(8, 144, 110);
+        color: rgb(39, 9, 68);
+      }
+
+    .info{
+        h2{
+            color: rgb(39, 9, 68);
+            margin-top: 15px;
+          }
+
+          p{
+            color: rgb(39, 9, 68);
+           
+          }
+    }
+     
+  }
+
